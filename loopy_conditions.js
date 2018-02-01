@@ -6,7 +6,11 @@
  * @param  { Number } b
  * @return { Number }
  */
-
+function greaterNumber(1,2){
+	var greaterNumber1 = 1
+	var greaterNumber2 = 100
+};
+return greaterNumber(1,2);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,7 +21,11 @@
  * @param  { Number } n
  * @return { String }
  */
-
+function stringOfNumbers(n){
+	var number = n;
+	var n = 5;
+}
+return stringOfNumbers(n);
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,6 +35,28 @@
  * @param  { array } arr
  * @return { Number }
  */
+ function sumOfArray(){
+ 	var arr = sum(1,2,3,4,5);
+ 	sum[0]= 2;
+ 	sum[1]= 4;
+ 	sum[2]= 6;
+ 	sum[3]= 8;
+ 	sum[4]= 10;
+ }
+
+ var sumOfArray=[
+	"2",
+	"4",
+	"6",
+	"8",
+	"10",
+	 ];
+
+var i;
+    var sum = 0;
+    for(i = 0; i < sumOfArray.length; i++) {
+        sum += sumOfArray[i];
+return sum;
 
 
 /**
@@ -37,6 +67,10 @@
  * @return { array }
  */
 
+ function getEvens(){
+ 	var arr = even(1,2,3,4,5);
+ 	even[0]= 2;
+ }
 
 /**
  * Create a function called 'getOdds'.
@@ -46,6 +80,10 @@
  * @return { array }
  */
 
+ function getOdds(){
+ 	var arr = even(1,2,3,4,5);
+ 	even[0]= 2;
+ }
 
 /**
  * Create a function called 'calculate'.
