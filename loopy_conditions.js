@@ -30,7 +30,7 @@ console.log(a, b);
  */
 function stringOfNumbers(n){
 	var Array = [];
-	for (i = 0; i < n; i++);
+	for (i = 0; i <= n; i++);
   	console.log(Array =+ i);
 }
 
