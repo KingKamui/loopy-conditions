@@ -6,16 +6,18 @@
  * @param  { Number } b
  * @return { Number }
  */
-function greaterNumber(a,b){
-	if (a > b){
+var a = 1;
+var b = 2;
+function greaterNumber(a, b){
+  if (a > b){
 		return a;
 	}
 	else{
 		return b;
 	}
-};
+}
+console.log(a, b);
 
-return greaterNumber(1,2);
 
 /**
  * Create a function called 'stringOfNumbers'.
