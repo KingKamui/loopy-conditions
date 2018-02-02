@@ -80,7 +80,7 @@ return sum;
  	var arr = even(1,2,3,4,5);
  	even[0]= 2;
  }
-return evens
+return evens;
 /**
  * Create a function called 'getOdds'.
  * This function will take in a parameter that is an array.
