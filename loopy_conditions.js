@@ -106,3 +106,19 @@ return evens
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+function calculate(number1, number2, number3){
+	var x = 12;
+	var y = 6;
+	var p = "+";
+	var m = "-";
+	var mul = "*";
+	var d = "/";
+	var out1 = "x p y" ;
+	var out2 = "x m y" ;
+	var out3 = "x mul y" ;
+	var out4 = "x d y" ;
+	return "Invalid Operator";
+	console.log (calculate)
+	    
+}
+	    
