@@ -6,10 +6,15 @@
  * @param  { Number } b
  * @return { Number }
  */
-function greaterNumber(1,2){
-	var greaterNumber1 = 1
-	var greaterNumber2 = 100
+function greaterNumber(a,b){
+	if (a > b){
+		return a;
+	}
+	else{
+		return b;
+	}
 };
+
 return greaterNumber(1,2);
 
 /**
@@ -22,10 +27,12 @@ return greaterNumber(1,2);
  * @return { String }
  */
 function stringOfNumbers(n){
-	var number = n;
-	var n = 5;
+	var Array = [];
+	for (i = 0; i < n; i++);
+  	console.log(Array =+ i);
 }
-return stringOfNumbers(n);
+
+return stringOfNumbers(5);
 
 /**
  * Create a function called 'sumOfArray'.
@@ -71,7 +78,7 @@ return sum;
  	var arr = even(1,2,3,4,5);
  	even[0]= 2;
  }
-
+return evens
 /**
  * Create a function called 'getOdds'.
  * This function will take in a parameter that is an array.
